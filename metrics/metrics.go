@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/cyberdelia/go-metrics-graphite"
-	"github.com/eBay/fabio/config"
+	"github.com/LibertyGlobal/fabio/config"
 	gometrics "github.com/rcrowley/go-metrics"
 )
 

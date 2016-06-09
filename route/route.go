@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/eBay/fabio/metrics"
+	"github.com/LibertyGlobal/fabio/metrics"
 
 	gometrics "github.com/rcrowley/go-metrics"
 )

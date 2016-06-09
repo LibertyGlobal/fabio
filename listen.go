@@ -13,9 +13,9 @@ import (
 	"time"
 
 	"github.com/armon/go-proxyproto"
-	"github.com/eBay/fabio/config"
-	"github.com/eBay/fabio/exit"
-	"github.com/eBay/fabio/proxy"
+	"github.com/LibertyGlobal/fabio/config"
+	"github.com/LibertyGlobal/fabio/exit"
+	"github.com/LibertyGlobal/fabio/proxy"
 )
 
 var quit = make(chan bool)

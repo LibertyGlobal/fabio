@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eBay/fabio/config"
-	"github.com/eBay/fabio/proxy"
-	"github.com/eBay/fabio/route"
+	"github.com/LibertyGlobal/fabio/config"
+	"github.com/LibertyGlobal/fabio/proxy"
+	"github.com/LibertyGlobal/fabio/route"
 )
 
 func TestNewServer(t *testing.T) {

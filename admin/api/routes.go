@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"sort"
 
-	fabioroute "github.com/eBay/fabio/route"
+	fabioroute "github.com/LibertyGlobal/fabio/route"
 )
 
 type route struct {

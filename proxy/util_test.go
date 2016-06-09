@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/eBay/fabio/config"
+	"github.com/LibertyGlobal/fabio/config"
 )
 
 func TestAddHeaders(t *testing.T) {

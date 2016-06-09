@@ -11,15 +11,15 @@ import (
 	"runtime"
 	"runtime/debug"
 
-	"github.com/eBay/fabio/admin"
-	"github.com/eBay/fabio/config"
-	"github.com/eBay/fabio/metrics"
-	"github.com/eBay/fabio/proxy"
-	"github.com/eBay/fabio/registry"
-	"github.com/eBay/fabio/registry/consul"
-	"github.com/eBay/fabio/registry/file"
-	"github.com/eBay/fabio/registry/static"
-	"github.com/eBay/fabio/route"
+	"github.com/LibertyGlobal/fabio/admin"
+	"github.com/LibertyGlobal/fabio/config"
+	"github.com/LibertyGlobal/fabio/metrics"
+	"github.com/LibertyGlobal/fabio/proxy"
+	"github.com/LibertyGlobal/fabio/registry"
+	"github.com/LibertyGlobal/fabio/registry/consul"
+	"github.com/LibertyGlobal/fabio/registry/file"
+	"github.com/LibertyGlobal/fabio/registry/static"
+	"github.com/LibertyGlobal/fabio/route"
 )
 
 // version contains the version number
@@ -30,7 +30,7 @@ import (
 // It is also set by the linker when fabio
 // is built via the Makefile or the build/docker.sh
 // script to ensure the correct version nubmer
-var version = "1.1.3"
+var version = "1.1.5"
 
 func main() {
 	var filename string

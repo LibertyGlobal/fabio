@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/eBay/fabio/registry"
+	"github.com/LibertyGlobal/fabio/registry"
 )
 
 type manual struct {

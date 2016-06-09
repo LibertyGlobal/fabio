@@ -4,8 +4,8 @@ import (
 	"errors"
 	"log"
 
-	"github.com/eBay/fabio/config"
-	"github.com/eBay/fabio/registry"
+	"github.com/LibertyGlobal/fabio/config"
+	"github.com/LibertyGlobal/fabio/registry"
 
 	"github.com/hashicorp/consul/api"
 )

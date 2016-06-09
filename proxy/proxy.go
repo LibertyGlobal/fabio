@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/eBay/fabio/config"
+	"github.com/LibertyGlobal/fabio/config"
 
 	gometrics "github.com/rcrowley/go-metrics"
 )
