@@ -30,7 +30,7 @@ func watchServices(client *api.Client, tagPrefix string, status []string, config
 		for _, check := range checks {
 			all_checks = append(all_checks, check)
 		}
-		log.Printf("[WARN] consul: Health changed to #%d", meta.LastIndex)
+		log.Printf("[INFO] consul: Health changed to #%d", meta.LastIndex)
 		lastIndex = meta.LastIndex
 		for i, dc := range datacenters {
 			if i == dcIndex {
