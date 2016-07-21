@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/eBay/fabio/config"
-	"github.com/eBay/fabio/metrics"
-	"github.com/eBay/fabio/proxy/gzip"
+	"github.com/LibertyGlobal/fabio/config"
+	"github.com/LibertyGlobal/fabio/metrics"
+	"github.com/LibertyGlobal/fabio/proxy/gzip"
 )
 
 // httpProxy is a dynamic reverse proxy for HTTP and HTTPS protocols.

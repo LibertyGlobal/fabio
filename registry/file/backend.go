@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/eBay/fabio/registry"
-	"github.com/eBay/fabio/registry/static"
+	"github.com/LibertyGlobal/fabio/registry"
+	"github.com/LibertyGlobal/fabio/registry/static"
 )
 
 func NewBackend(filename string) (registry.Backend, error) {

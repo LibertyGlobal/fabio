@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eBay/fabio/config"
+	"github.com/LibertyGlobal/fabio/config"
 	consulapi "github.com/hashicorp/consul/api"
 	vaultapi "github.com/hashicorp/vault/api"
 	"github.com/pascaldekloe/goe/verify"

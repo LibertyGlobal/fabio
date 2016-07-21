@@ -11,7 +11,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/eBay/fabio/metrics"
+	"github.com/LibertyGlobal/fabio/metrics"
 )
 
 var errInvalidPrefix = errors.New("route: prefix must not be empty")

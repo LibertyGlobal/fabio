@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/eBay/fabio/metrics"
+	"github.com/LibertyGlobal/fabio/metrics"
 )
 
 func newHTTPProxy(t *url.URL, tr http.RoundTripper, flush time.Duration) http.Handler {

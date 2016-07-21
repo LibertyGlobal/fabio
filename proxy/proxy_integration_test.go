@@ -10,8 +10,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/eBay/fabio/config"
-	"github.com/eBay/fabio/route"
+	"github.com/LibertyGlobal/fabio/config"
+	"github.com/LibertyGlobal/fabio/route"
 )
 
 func TestProxyProducesCorrectXffHeader(t *testing.T) {

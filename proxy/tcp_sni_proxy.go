@@ -6,8 +6,8 @@ import (
 	"log"
 	"net"
 
-	"github.com/eBay/fabio/config"
-	"github.com/eBay/fabio/route"
+	"github.com/LibertyGlobal/fabio/config"
+	"github.com/LibertyGlobal/fabio/route"
 )
 
 // TCPProxy implements an SNI aware transparent TCP proxy which captures the

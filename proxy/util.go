@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/eBay/fabio/config"
-	"github.com/eBay/fabio/route"
+	"github.com/LibertyGlobal/fabio/config"
+	"github.com/LibertyGlobal/fabio/route"
 )
 
 // addHeaders adds/updates headers in request

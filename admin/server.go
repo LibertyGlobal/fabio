@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/eBay/fabio/admin/api"
-	"github.com/eBay/fabio/admin/ui"
-	"github.com/eBay/fabio/config"
+	"github.com/LibertyGlobal/fabio/admin/api"
+	"github.com/LibertyGlobal/fabio/admin/ui"
+	"github.com/LibertyGlobal/fabio/config"
 )
 
 // ListenAndServe starts the admin api and ui server.

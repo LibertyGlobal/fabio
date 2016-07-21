@@ -3,7 +3,7 @@ package api
 import (
 	"net/http"
 
-	"github.com/eBay/fabio/config"
+	"github.com/LibertyGlobal/fabio/config"
 )
 
 var Cfg *config.Config
