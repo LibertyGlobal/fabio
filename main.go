@@ -19,7 +19,7 @@ import (
 	"github.com/eBay/fabio/registry/file"
 	"github.com/eBay/fabio/registry/static"
 	"github.com/eBay/fabio/route"
-	"github.com/madeddie/fabio/registry/consul"
+	"github.com/libertyglobal/fabio/registry/consul"
 )
 
 // version contains the version number
